@@ -1,0 +1,148 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Roboto";
+}
+[alt="logo"] {
+ display: flex;
+ height: 30px;
+ margin-top: 40px;
+ margin-left: 90px;
+}
+.nav-items {
+ display: flex;
+ justify-content: center;
+ align-content: center;
+}
+.nav-item {
+ position: relative;
+ bottom: 30px;
+ padding: 15px;
+ color: #5A20CB;
+ cursor: pointer;
+}
+.signin-btn {
+ position: relative;
+ left: 80%;
+ border: 1px solid ;
+ padding: 7px 20px 15px;
+ border-radius: 40px;
+ color: #fff;
+ height: 30px;
+ bottom: 70px;
+ z-index: -1;
+ background: linear-gradient(270deg, #eb81ec 30% , #730cd9 100% );
+ cursor: pointer;
+}
+.intro-section h1 {
+ display: flex;
+ font-family: "Roboto";
+ font-size: 50px;
+ color: #5A20CB;
+ margin-left: 8%;
+ margin-top: 4%;
+}
+.left-section h4 {
+ position: relative;
+ left: 95px;
+ top: 38px;
+ width: 300px;
+ color: #beb3d4;
+}
+.learn-more-btn {
+ position: relative;
+ border: 1px solid ;
+ padding: 5px 20px 15px;
+ border-radius: 40px;
+ color: #fff;
+ height: 40px;
+ left: 120px;
+ top: 80px;
+ width: 175px;
+ font-size: 20px;
+ background: linear-gradient(270deg, #eb81ec 30% , #730cd9 100% );
+ cursor: pointer;
+}
+.imgs-div{
+ background-image: url(../images/backcover.svg) ;
+ background-repeat: no-repeat;
+ position: relative;
+ left: 37%;
+ bottom: 380px;
+}
+[alt="intro-img"] {
+ display: flex;
+ height: 670px;
+}
+.vector-img {
+ position: relative;
+ top: 480px;
+ right: 80px;
+}
+.vector-dot {
+ position: relative;
+ top: 400px;
+ right: 120px;
+ height: 20px;
+}
+.menu-icon img {
+ display: none;
+}
+
+@media screen and (max-width: 350px) {
+    .nav-items {
+     display: none;
+    }
+    [alt="logo" ] {
+     position: relative;
+     right: 80px;
+    }
+    .menu-icon img {
+     display: flex;
+     width: 10%;
+     height: 40px;
+     position: absolute;
+     top: 30px;
+     right: 50px;
+     cursor: pointer;
+    }
+    .intro-section {
+     margin-top: 400px;
+    }
+    .signin-btn {
+     display: none;
+    }
+    .left-section h1 {
+     right: 50px;
+     position: absolute;
+     top: 100px;
+     width: 80%;
+    }
+    .left-section h4 {
+     left: 5%;
+     position: absolute;
+     top: 190px;
+     width: 80%;
+    }
+    .learn-more-btn {
+     left: 15%;
+     position: absolute;
+     top: 320px;
+    }
+    .imgs-div{
+     background-image: url(../images/backcover.svg) ;
+     background-repeat: no-repeat;
+     width: 200%;
+     height: 120vh;
+     position: absolute;
+     top:0px;
+     left: -50%;
+    }
+    [alt="intro-img"] {
+     width: 200%;
+     height: 300px;
+     margin-top: 280px;
+     margin-left: -50%;
+    }
+}
