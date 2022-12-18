@@ -14,8 +14,8 @@
 
 - *It took me around 10 hours to complete the webpage.*
 
-# Live link of projects:
- [project 08]()
+
+# [Live project 08](https://charming-kelpie-8fd189.netlify.app/)
 
  ### Preview:
 ![8](https://user-images.githubusercontent.com/115790586/208295396-caeb8638-3c0b-4bfc-9f80-0c02c0ed76fd.png)
